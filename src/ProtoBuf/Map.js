@@ -2,7 +2,7 @@
  * @alias ProtoBuf.Map
  * @expose
  */
-ProtoBuf.Map = (function(ProtoBuf) {
+ProtoBuf.Map = typeof Map === 'object' ? Map : (function(ProtoBuf) {
     "use strict";
 
     /**
